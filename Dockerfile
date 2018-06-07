@@ -1,4 +1,4 @@
-FROM xaxiseng/base-centos7:1.0.0-34
+FROM centos:centos7
 
 MAINTAINER  Prahlad Kumar <prahladk@cybage.com>
 
