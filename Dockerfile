@@ -46,7 +46,7 @@ WORKDIR /var/lib/rabbitmq
 # 15672 rabbitmq-server - for management plugin
 # 4369 epmd - for clustering
 # 25672 rabbitmq-server - for clustering
-EXPOSE 5672 15672 4369 25672
+EXPOSE 5672 4369 25672
 
 # Add passwd template file for nss_wrapper
 ADD passwd.template /tmp/rabbitmq/passwd.template
